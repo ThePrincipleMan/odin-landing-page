@@ -24,29 +24,34 @@ a {
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 0 14vw;
+    padding: 0 16vw;
 }
 
-.links ul {
+.navbar ul {
     display: flex;
-    flex-direction: row;
 }
+
 
 .intro {
     display: flex;
-    padding: 0 14vw;
+    padding: 0 16vw;
+    gap: 3vw;
+    padding-top: 8vh;
+    padding-bottom: 10vh;
 }
 
 .intro-text {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    width: 50%;
+    
 }
 
 .intro-text h2 {
-    font-size: 44px;
+    font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+    margin-bottom: 6px;
 }
 
 .intro-text p {
@@ -57,13 +62,18 @@ a {
 .signup {
     background-color: #3882f6;
     color: white;
+    width: 15%;
+    height: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
-    padding: 4px 4px;
 }
 
 .image-holder {
     background-color: #e5e7eb;
-    color: #f9faf8;
+    color: #1f2937;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,56 +82,68 @@ a {
 .mid {
     background-color: #f9faf8;
     color: #1f2937;
-    padding: 0 14vw;
     display: flex;
     flex-direction: column;
 }
 
 .mid h2 {
     text-align: center;
+    font-size: 48px;
 }
 
 .cards {
     display: flex;
     justify-content: space-around;
-    gap: 12px;
+    padding: 0 16vw;
+    margin-bottom: 12vh;
+
 }
 
 .single-card {
     display: flex;
     flex-direction: column;
-    width: 15vw;
+    font-size: 18px;
+    width: 11vw;
     height: auto;
 }
 
 .img1 {
     border: 3px #3882f6 solid;
-    width: 20vw;
-    height: 20vw;
+    width: 11vw;
+    height: 12vw;
 }
 
 .quote {
     background-color: #e5e7eb;
     color: #1f2937;
-    padding: 0 14vw;
+    padding: 7vw 20vw;
+    font-size: 36px;
     font-style: italic;
     font-weight: 100;
-    padding: 4vh auto;
 }
 
 .author {
     color: black;
     float: right;
+    font-style: normal;
+    font-weight: 600;
+    padding-right: 2vw;
 }
 
 .sign-noti {
-    margin: 6vh 0;
-    padding: 12px;
+    margin: 8vh 16vw;
+    padding-bottom: 4vh;
     background-color: #3882f6;
+    border-radius: 7px;
     color: #f9faf8;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.sign-text h3 {
+    font-size: 32px;
+    margin-bottom: 6px;
 }
 
 .sign-text {
@@ -131,14 +153,15 @@ a {
 
 .sign-btn {
     border: 2px #f9faf8 solid;
-    padding: 6px;
-    margin: 8px;
+    padding: 6px 22px;
+    margin-top: 3%;
     border-radius: 6px;
 }
 
 .footer {
     background-color: #1f2937;
     color: #e5e7eb;
+    height: 15vh;
     padding: 0 14vw;
     display: flex;
     justify-content: center;
